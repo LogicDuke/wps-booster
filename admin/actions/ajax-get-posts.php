@@ -25,6 +25,7 @@ function bstr_get_posts() {
 	$offset         = intval( $_POST['offset'] );
 
 	// Base args.
+	// Use the supported post types list so the admin booster includes models too.
 	$supported_post_types = function_exists( 'bstr_get_supported_post_types' )
 		? bstr_get_supported_post_types()
 		: array( 'post', 'model' );
