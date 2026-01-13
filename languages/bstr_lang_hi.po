@@ -1,0 +1,151 @@
+# Copyright (C) 2025 WPS Booster
+# This file is distributed under the same license as the WPS Booster package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPS Booster\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-09-25 15:22+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: \n"
+"Language-Team: \n"
+
+#: ../localize.php:8
+msgid "Loading Data"
+msgstr "डेटा लोड करना"
+
+#: ../localize.php:9
+msgid "Boost"
+msgstr "बूस्ट"
+
+#: ../localize.php:10
+msgid "min."
+msgstr "मिनट."
+
+#: ../localize.php:11
+msgid "max."
+msgstr "मैक्स।."
+
+#: ../localize.php:12
+msgid "Boosting"
+msgstr "बढ़ाव"
+
+#: ../localize.php:13
+msgid "Replace"
+msgstr "बदलें"
+
+#: ../localize.php:14
+msgid "Set"
+msgstr "सेट"
+
+#: ../localize.php:15
+msgid "on all existing posts"
+msgstr "सभी मौजूदा पदों पर"
+
+#: ../localize.php:16
+msgid "between"
+msgstr "बीच"
+
+#: ../localize.php:17
+msgid "and"
+msgstr "और"
+
+#: ../localize.php:18
+msgid "or"
+msgstr "या"
+
+#: ../localize.php:19
+msgid "Add"
+msgstr "जोड़ें"
+
+#: ../localize.php:20
+msgid "Add between"
+msgstr "बीच जोड़ें"
+
+#: ../localize.php:21
+msgid "Boost Existing Posts"
+msgstr "मौजूदा डाक को बढ़ावा देना"
+
+#: ../localize.php:22
+msgid "on new posts"
+msgstr "नई पोस्ट पर"
+
+#: ../localize.php:23
+msgid "Boost New Posts?"
+msgstr "न्यू पोस्ट बूस्ट?"
+
+#: ../localize.php:24
+msgid "Yes"
+msgstr "हाँ"
+
+#: ../localize.php:25
+msgid "No"
+msgstr "नहीं"
+
+#: ../localize.php:26
+msgid "Saving options"
+msgstr "बचत विकल्प"
+
+#: ../localize.php:27
+msgid "Options saved"
+msgstr "विकल्प बचाया"
+
+#: ../localize.php:28
+msgid "Save options"
+msgstr "विकल्प सहेजें"
+
+#: ../classes/class-bstr.php:37, ../classes/class-bstr.php:46
+msgid "Do not clone or wake up this class"
+msgstr "इस वर्ग को क्लोन या जगाना नहीं है"
+
+#: ../tgmpa/config.php:41
+msgid "Install Required Plugins"
+msgstr "आवश्यक प्लगइन स्थापित करें"
+
+#: ../tgmpa/config.php:42
+msgid "Install Plugins"
+msgstr "प्लगइन स्थापित करें"
+
+#. translators: %s: plugin name.
+#: ../tgmpa/config.php:44
+msgid "Installing Plugin: %s"
+msgstr "प्लगइन स्थापित करना: %s"
+
+#. translators: %s: plugin name.
+#: ../tgmpa/config.php:46
+msgid "Updating Plugin: %s"
+msgstr "अद्यतन प्लगइन: %s"
+
+#: ../tgmpa/config.php:47
+msgid "Something went wrong with the plugin API."
+msgstr "कुछ प्लगइन एपीआई के साथ गलत हो गया।."
+
+#. translators: 1: plugin name(s).
+#: ../tgmpa/config.php:49
+msgid "WP-Script products requires the following plugin: %1$s."
+msgid_plural "WP-Script products requires the following plugins: %1$s."
+msgstr[0] "WP-Script उत्पादों को निम्नलिखित प्लगइन की आवश्यकता है: %1$s."
+msgstr[1] "WP-Script उत्पादों को निम्नलिखित प्लगइन्स की आवश्यकता होती है: %1$s।."
+
+#. translators: 1: plugin name(s).
+#: ../tgmpa/config.php:55
+msgid "WP-Script products recommends the following plugin: %1$s."
+msgid_plural "WP-Script products recommends the following plugins: %1$s."
+msgstr[0] "WP-Script उत्पाद निम्नलिखित प्लगइन की सिफारिश करते हैं: %1$s।."
+msgstr[1] "WP-Script उत्पाद निम्नलिखित प्लगइन्स की सिफारिश करते हैं: %1$s।."
+
+#. translators: 1: plugin name(s).
+#: ../tgmpa/config.php:61
+msgid "%1$s needs to be updated to its latest version to ensure maximum compatibility with WP-Script products"
+msgid_plural "%1$s need to be updated to their latest version to ensure maximum compatibility with WP-Script products"
+msgstr[0] "%1$s को WP-Script उत्पादों के साथ अधिकतम संगतता सुनिश्चित करने के लिए अपने नवीनतम संस्करण में अद्यतन करने की आवश्यकता है"
+msgstr[1] "WP-Script उत्पादों के साथ अधिकतम संगतता सुनिश्चित करने के लिए %1$s को अपने नवीनतम संस्करण में अद्यतन करने की आवश्यकता है"

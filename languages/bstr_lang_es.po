@@ -1,0 +1,151 @@
+# Copyright (C) 2025 WPS Booster
+# This file is distributed under the same license as the WPS Booster package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPS Booster\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-09-25 15:22+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: \n"
+"Language-Team: \n"
+
+#: ../localize.php:8
+msgid "Loading Data"
+msgstr "Cargando datos"
+
+#: ../localize.php:9
+msgid "Boost"
+msgstr "Boost"
+
+#: ../localize.php:10
+msgid "min."
+msgstr "min."
+
+#: ../localize.php:11
+msgid "max."
+msgstr "max."
+
+#: ../localize.php:12
+msgid "Boosting"
+msgstr "Boosting"
+
+#: ../localize.php:13
+msgid "Replace"
+msgstr "Reemplazamiento"
+
+#: ../localize.php:14
+msgid "Set"
+msgstr "Set"
+
+#: ../localize.php:15
+msgid "on all existing posts"
+msgstr "sobre todos los puestos existentes"
+
+#: ../localize.php:16
+msgid "between"
+msgstr "entre"
+
+#: ../localize.php:17
+msgid "and"
+msgstr "y"
+
+#: ../localize.php:18
+msgid "or"
+msgstr "o"
+
+#: ../localize.php:19
+msgid "Add"
+msgstr "Añadir"
+
+#: ../localize.php:20
+msgid "Add between"
+msgstr "Añadir entre"
+
+#: ../localize.php:21
+msgid "Boost Existing Posts"
+msgstr "Puestos existentes más altos"
+
+#: ../localize.php:22
+msgid "on new posts"
+msgstr "nuevos puestos"
+
+#: ../localize.php:23
+msgid "Boost New Posts?"
+msgstr "¿Boost New Posts?"
+
+#: ../localize.php:24
+msgid "Yes"
+msgstr "Sí"
+
+#: ../localize.php:25
+msgid "No"
+msgstr "No"
+
+#: ../localize.php:26
+msgid "Saving options"
+msgstr "Opciones de ahorro"
+
+#: ../localize.php:27
+msgid "Options saved"
+msgstr "Opciones guardadas"
+
+#: ../localize.php:28
+msgid "Save options"
+msgstr "Guardar opciones"
+
+#: ../classes/class-bstr.php:37, ../classes/class-bstr.php:46
+msgid "Do not clone or wake up this class"
+msgstr "No clones ni despiertas esta clase"
+
+#: ../tgmpa/config.php:41
+msgid "Install Required Plugins"
+msgstr "Instalar Plugins requeridos"
+
+#: ../tgmpa/config.php:42
+msgid "Install Plugins"
+msgstr "Instalar Plugins"
+
+#. translators: %s: plugin name.
+#: ../tgmpa/config.php:44
+msgid "Installing Plugin: %s"
+msgstr "Instalar Plugin: %s"
+
+#. translators: %s: plugin name.
+#: ../tgmpa/config.php:46
+msgid "Updating Plugin: %s"
+msgstr "Plugin de actualización: %s"
+
+#: ../tgmpa/config.php:47
+msgid "Something went wrong with the plugin API."
+msgstr "Algo salió mal con el plugin API."
+
+#. translators: 1: plugin name(s).
+#: ../tgmpa/config.php:49
+msgid "WP-Script products requires the following plugin: %1$s."
+msgid_plural "WP-Script products requires the following plugins: %1$s."
+msgstr[0] "Los productos WP-Script requieren el siguiente plugin: %1$s."
+msgstr[1] "Los productos WP-Script requieren los siguientes plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: ../tgmpa/config.php:55
+msgid "WP-Script products recommends the following plugin: %1$s."
+msgid_plural "WP-Script products recommends the following plugins: %1$s."
+msgstr[0] "Los productos WP-Script recomiendan el siguiente plugin: %1$s."
+msgstr[1] "Los productos WP-Script recomiendan los siguientes plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: ../tgmpa/config.php:61
+msgid "%1$s needs to be updated to its latest version to ensure maximum compatibility with WP-Script products"
+msgid_plural "%1$s need to be updated to their latest version to ensure maximum compatibility with WP-Script products"
+msgstr[0] "%1$s necesita ser actualizado a su última versión para garantizar la máxima compatibilidad con los productos WP-Script"
+msgstr[1] "%1$s debe ser actualizado a su última versión para garantizar la máxima compatibilidad con los productos WP-Script"
