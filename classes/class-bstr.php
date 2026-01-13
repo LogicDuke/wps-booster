@@ -135,6 +135,7 @@ final class BSTR {
 	 */
 	public function action_boost_new_posts( $post_id, $post, $update ) {
 		$bstr_options = BSTR\Options::get();
+		// Allow boosting for both default posts (videos) and model post types.
 		$supported_types = function_exists( 'bstr_get_supported_post_types' )
 			? bstr_get_supported_post_types()
 			: array( 'post', 'model' );
