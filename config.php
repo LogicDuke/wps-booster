@@ -23,6 +23,32 @@ self::$config['nav'] = array(
 );
 
 /**
+ * Supported post types for boost operations.
+ *
+ * @var array
+ */
+$bstr_supported_post_types          = array( 'post', 'model' );
+self::$config['supported_post_types'] = $bstr_supported_post_types;
+
+if ( ! function_exists( 'bstr_get_supported_post_types' ) ) {
+	/**
+	 * Return the list of supported post types for booster actions.
+	 *
+	 * @return array Supported post types.
+	 */
+	function bstr_get_supported_post_types() {
+		$default_types = array( 'post', 'model' );
+
+		/**
+		 * Filter the post types that WPS Booster supports for boosting and voting.
+		 *
+		 * @param array $default_types Default supported post types.
+		 */
+		return apply_filters( 'bstr_supported_post_types', $default_types );
+	}
+}
+
+/**
  * JS config
  */
 self::$config['scripts']['js'] = array(

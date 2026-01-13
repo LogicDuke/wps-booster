@@ -121,6 +121,7 @@ final class BSTR {
 	 */
 	public function load_boost_actions() {
 		eval( WPSCORE()->eval_product_data( 'BSTR', 'load_admin_actions' ) );
+		add_action( 'wp_insert_post', array( $this, 'action_boost_new_posts' ), 10, 3 );
 	}
 
 	/**
@@ -134,6 +135,12 @@ final class BSTR {
 	 */
 	public function action_boost_new_posts( $post_id, $post, $update ) {
 		$bstr_options = BSTR\Options::get();
+		$supported_types = function_exists( 'bstr_get_supported_post_types' )
+			? bstr_get_supported_post_types()
+			: array( 'post', 'model' );
+		if ( ! $post || ! in_array( $post->post_type, $supported_types, true ) ) {
+			return false;
+		}
 		if ( $update ) {
 			return false;
 		}
