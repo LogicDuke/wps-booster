@@ -24,6 +24,8 @@ define( 'BSTR_FILE', __FILE__ );
 require_once BSTR_DIR . 'tgmpa/class-tgm-plugin-activation.php';
 require_once BSTR_DIR . 'tgmpa/config.php';
 require_once 'vendor/autoload.php';
+require_once BSTR_DIR . 'includes/theme-integration.php';
+require_once BSTR_DIR . 'public/ajax-voting.php';
 
 /**
  * Create the plugin instance in a function and call it.

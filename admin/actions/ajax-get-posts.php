@@ -25,10 +25,14 @@ function bstr_get_posts() {
 	$offset         = intval( $_POST['offset'] );
 
 	// Base args.
+	$supported_post_types = function_exists( 'bstr_get_supported_post_types' )
+		? bstr_get_supported_post_types()
+		: array( 'post', 'model' );
+
 	$args = array(
 		'fields'         => 'ids',
 		'post_status'    => 'publish',
-		'post_type'      => 'post',
+		'post_type'      => $supported_post_types,
 		'posts_per_page' => $posts_per_page,
 		'offset'         => $offset,
 		'orderby'        => 'date',
